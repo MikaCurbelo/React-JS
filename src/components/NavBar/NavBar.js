@@ -15,11 +15,14 @@ export const NavBar = () => {
           <a className="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Cursos</a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" href="#">Galería</a>
         </li>
+        <select className='backNav borde'>
+          <option selected value="Cursos">Cursos</option>
+          <option value="Piano">Piano</option>
+          <option  value="Bateria">Bateria</option>
+          <option value="Guitarra">Guitarra</option>
+        </select>
       </ul>
       <span className="logo fontColorNav">
        CLASES DE MÚSICA
