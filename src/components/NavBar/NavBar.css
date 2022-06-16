@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 .logo{
+    padding-top: 10px;
+    font-family: 'Permanent Marker', cursive;
     font-weight: 900;
     font-size: larger;
+    display: flex;
+    justify-content:center;
 }
 .fontColorNav{
-    color: #183873;
+    color: #034159;
 }
 .backNav{
-    background-color: #00BFB2;
+    background-color: #03A678;
 }
 .borde{
     border-radius: 25px;

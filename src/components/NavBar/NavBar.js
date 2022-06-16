@@ -1,10 +1,17 @@
 import React from 'react'
 import './NavBar.css'
+import CartWidget from '../CartWidget'
+
+
+
 
 export const NavBar = () => {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light backNav">
+      <span className="logo fontColorNav backNav">
+       <h1>CLASES DE MÚSICA</h1>
+      </span>
+    <nav className="navbar navbar-expand-lg navbar-light backNav">
   <div className="container-fluid">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -24,9 +31,8 @@ export const NavBar = () => {
           <option value="Guitarra">Guitarra</option>
         </select>
       </ul>
-      <span className="logo fontColorNav">
-       CLASES DE MÚSICA
-      </span>
+      <div className="espacio"><CartWidget></CartWidget></div>
+      
     </div>
   </div>
 </nav>
